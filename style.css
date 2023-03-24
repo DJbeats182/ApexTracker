@@ -1,0 +1,118 @@
+/* form {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+  } */
+  form {
+    background-color: rgba(0, 0, 0, 0.7); /* use rgba() to set opacity */
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    font-family: 'your-gaming-inspired-font', sans-serif;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* width: 400px;
+    margin: 0 auto; */
+  }
+
+  .background {
+    background-image: url('Team.jpg');
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+    z-index: -1;
+  }
+
+  /* label {
+    display: block;
+    margin-bottom: 10px;
+  } */
+
+  /* input[type="text"] {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    margin-bottom: 10px;
+  } */
+
+  input[type="text"],
+  select {
+    width: 100%;  
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.2); /* use rgba() to set opacity */
+    color: #fff;
+}
+
+select {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    border: 1px solid #ccc;
+    padding: 5px;    
+  }
+
+  select:focus {
+    background-color: #555;
+  } 
+  
+  option {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+  }
+  
+  
+  
+   
+  button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;    
+    background-color: #C91B26;
+    color: white;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  }
+  
+  button[type="submit"]:hover {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #930710;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }  
+  
+  /* input[type="submit"] {
+    background-color: #C91B26;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  } */
+  
+ 
+  
+  
+  

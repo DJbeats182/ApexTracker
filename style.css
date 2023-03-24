@@ -108,14 +108,11 @@ select {
     cursor: pointer;
   }  
 
-  body {
+  form, select {
     font-family: 'Bangers', cursive;
   }
 
-  @font-face {
-    font-family: 'Bangers';
-    src: url('Bangers/Bangers-Regular.ttf');
-  }
+ 
   
   /* input[type="submit"] {
     background-color: #C91B26;

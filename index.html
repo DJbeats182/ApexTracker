@@ -1,28 +1,44 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <link rel="stylesheet" href="style.css">
-    <script src="app.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apex Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="test.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bangers&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="Icons\favicon1.ico" />
     <div class="background"></div>
-</head>
-<form>
-  <label for="platform">Choose a platform:</label>
-  <select name="platform" id="platform" type="checkbox">
-    <option value="X1">Xbox</option>
-    <option value="PS4">PlayStation</option>
-    <option value="PC">Computer</option>
-  </select>  
-  <br>
-  <label for="username">Username:</label>
-  <input type="text" id="username" name="username" required>
-  <label for="games-input">Enter the number of games you want to play:</label>
-  <input type="text" id="games-input" name="games">
-  <br>
-  <br>  
-  <button type="submit" id="submit-btn">Submit</button>
-</form>
-</body>
+  </head>
+  <body>
+    <div id="container">
+      <h1>Apex Tracker</h1>
+      <form>
+        <label for="platform">Choose a platform:</label>
+        <select name="platform" id="platform" type="checkbox">
+          <option value="X1">Xbox</option>
+          <option value="PS4">PlayStation</option>
+          <option value="PC">Computer</option>
+        </select>
+        <br />
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" />
+        <!--required-->
+        <label for="games-input"
+          >Enter the number of games you want to play:</label
+        >
+        <input type="text" id="games-input" name="games" />
+        <br />
+        <br />
+        <button type="submit" id="submit-btn">Submit</button>
+      </form>
+      <div id="response-container"></div>
+    </div>
+  </body>
 </html>
